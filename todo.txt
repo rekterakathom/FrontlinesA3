@@ -1,0 +1,58 @@
+^ - completed
+! - working on currently
+  - not yet started
+? - in design phase
+
+--------------------------------------------------------------------
+
+^ Headless client support
+
+! Respawn system and vehicle respawn
+
+^ Penalty for destroying buildings
+
+^ Promotion / demotion system
+	* Every two sectors you capture you gain a promotion
+	* Every hundred enemies killed will get you a promotion
+	* Every fifty heals will get you a promotion
+	* Every five buildings you destroy will get you a demotion
+	* Every ten friendly units killed will get you a demotion
+	* Every five artillery strikes on civ targets will get you a demotion
+	
+! Branches
+  	* There are three branches in which you can "enlist", giving you different perks
+		* Infantry
+			* 20% less stamina drain from carrying
+		* Recon
+			* 20% less audible and visible to enemies
+		* Support
+			* Engineer, UAV hacker and medic perks, along with ability to request a supply crate
+
+! Sleeping
+	* ACE features long term fatigue and muscle tear. Allow players to sleep in sleeping bags to recover faster
+
+! Dynamic Arty and AA positions
+	* Persistent and non-despawning arty and AA positions to pose a non-stop threat to players
+
+^ Heads up display (basic)
+! Heads up display (sector)
+? Fire support menu
+  Mission menu
+  	* The three branches have their own mission types and each can have 1 mission active at a time
+	* Infantry
+		* Attack sector
+			* Captures a sector
+	* Recon
+		* Raid sector
+			* Sector can't send reinforcements, food and water can be captured
+	* Support
+		* Deliver supplies
+			* Receive food, ammo, etc to deliver to frontlines
+
+? Currency: Fire Support Points (FSP)
+	* Gain 1 from every enemy killed
+	* Gain 10 from capturing a sector
+
+? Fire support from USS Freedom
+	* Mk45 Hammer: 30 FSP / shot
+	* Mk41 VLS: 60 FSP / missile

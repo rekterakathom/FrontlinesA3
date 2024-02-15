@@ -1,0 +1,32 @@
+#include "cfgFunctions.inc"
+
+briefingName = "Frontlines - Virolahti";
+onLoadName = "Frontlines - Virolahti";
+overviewText = "Fight on the frontlines and secure Virolahti!";
+overviewPicture = "picture.paa";
+author = "ThomasAngel";
+
+class Header
+{
+	gameType =  Coop;	// Game type
+	minPlayers =  1;	// minimum number of players the mission supports
+	maxPlayers = 10;	// maximum number of players the mission supports
+};
+
+// LOBBY SETTINGS
+disabledAI = 1;
+allowProfileGlasses = 0;
+
+// RESPAWN SETTINGS
+respawn = 3;
+respawnDelay = 5;
+respawnDialog = 0;
+respawnTemplates[] = {};
+
+#include "\a3\ui_f\hpp\defineCommonGrids.inc"
+#include "UI\BaseControls.hpp"
+#include "UI\vehicleOrder.hpp"
+class RscTitles
+{
+	#include "UI\RscMyHUD.hpp"
+};

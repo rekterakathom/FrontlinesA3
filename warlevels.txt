@@ -1,0 +1,5 @@
+0% normal
+15% static weapons
+20% mechanized infantry
+30% mortars
+45% heavy artillery
